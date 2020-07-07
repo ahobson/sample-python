@@ -1,0 +1,21 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+black = "==19.3b0"
+pytest = "==5.1.1"
+requests-mock = "*"
+mock = "*"
+pytest-mock = "*"
+pytest-cov = "*"
+sampleapp = {editable = true,path = "."}
+flake8 = "*"
+
+[packages]
+requests = "*"
+sampleapp = {editable = true, path = "."}
+
+[requires]
+python_version = "3.7"
